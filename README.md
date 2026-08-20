@@ -1,16 +1,40 @@
-# React + Vite
+# spafa — digital studio site
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+React + Vite + Tailwind CSS v4 homepage.
 
-Currently, two official plugins are available:
+## Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- [Node.js](https://nodejs.org/) 20 or later (includes npm)
+- Git
 
-## React Compiler
+Check what you have installed:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+node -v
+npm -v
+git -v
+```
 
-## Expanding the Oxlint configuration
+## Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+git clone https://github.com/Bigpoppa2077/spafa_edit1.git
+cd spafa_edit1
+npm install
+```
+
+## Run it locally
+
+```bash
+npm run dev
+```
+
+This starts a dev server, usually at `http://localhost:5173` — open that URL in your browser. Leave the terminal running; closing it stops the server.
+
+## Other commands
+
+```bash
+npm run build      # production build, output in dist/
+npm run preview     # preview the production build locally
+npm run lint         # run oxlint
+```
